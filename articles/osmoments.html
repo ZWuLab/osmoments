@@ -55,7 +55,7 @@
       <h1>Exact moments of order statistics with osmoments</h1>
             
       
-      <small class="dont-index">Source: <a href="https://github.com/ZWuLab/osmoments/blob/main/vignettes/osmoments.Rmd" class="external-link"><code>vignettes/osmoments.Rmd</code></a></small>
+      <small class="dont-index">Source: <a href="https://github.com/ZWuLab/osmoments/blob/v0.1.0/vignettes/osmoments.Rmd" class="external-link"><code>vignettes/osmoments.Rmd</code></a></small>
       <div class="d-none name"><code>osmoments.Rmd</code></div>
     </div>
 
@@ -195,9 +195,9 @@ milliseconds, on the machine that built this vignette.</p>
 <span>               with_three_covariances <span class="op">=</span> <span class="va">t_pairs</span>,</span>
 <span>               full_matrix_n10 <span class="op">=</span> <span class="va">t_full10</span>, full_matrix_n20 <span class="op">=</span> <span class="va">t_full20</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="co">#&gt; three_means_and_variances    with_three_covariances           full_matrix_n10 </span></span>
-<span><span class="co">#&gt;                         4                       308                      1543 </span></span>
+<span><span class="co">#&gt;                         2                       186                       957 </span></span>
 <span><span class="co">#&gt;           full_matrix_n20 </span></span>
-<span><span class="co">#&gt;                      6605</span></span></code></pre></div>
+<span><span class="co">#&gt;                      4100</span></span></code></pre></div>
 <p>The computing cost of one integral hardly depends on
 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>.
 On an Apple M3 Pro, for the standard normal and
@@ -222,7 +222,7 @@ By that count, the full matrix at
 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">n = 100</annotation></semantics></math>
 costs about 26 times the one at
 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>20</mn></mrow><annotation encoding="application/x-tex">n = 20</annotation></semantics></math>
-above. On the machine that built this vignette, that predicts about 172
+above. On the machine that built this vignette, that predicts about 107
 seconds. On the M3 Pro, the full normal matrix took 2.4 minutes at
 <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">n = 100</annotation></semantics></math>
 on one core, and 70 minutes at

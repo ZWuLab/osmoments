@@ -126,9 +126,9 @@ round(1000 * c(three_means_and_variances = t_single,
                with_three_covariances = t_pairs,
                full_matrix_n10 = t_full10, full_matrix_n20 = t_full20))
 #> three_means_and_variances    with_three_covariances           full_matrix_n10 
-#>                         4                       308                      1543 
+#>                         2                       186                       957 
 #>           full_matrix_n20 
-#>                      6605
+#>                      4100
 ```
 
 The computing cost of one integral hardly depends on $`n`$. On an Apple
@@ -143,7 +143,7 @@ A full matrix is different. At sample size $`n`$ it needs $`n(n-1)/2`$
 covariances, or about half as many for a symmetric family, so its time
 grows with the square of $`n`$. By that count, the full matrix at
 $`n = 100`$ costs about 26 times the one at $`n = 20`$ above. On the
-machine that built this vignette, that predicts about 172 seconds. On
+machine that built this vignette, that predicts about 107 seconds. On
 the M3 Pro, the full normal matrix took 2.4 minutes at $`n = 100`$ on
 one core, and 70 minutes at $`n = 1001`$ on 12 cores. For $`n`$ in the
 hundreds, run one call of
