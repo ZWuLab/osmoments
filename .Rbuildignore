@@ -1,0 +1,17 @@
+^dev$
+^AI-USE\.md$
+^\.release-exclude$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^doc$
+^Meta$
+^\.github$
+^.*\.Rproj$
+^\.Rproj\.user$
+^tests/testthat/_problems$
+^benchmarks$
+^cran-comments\.md$
+^\.release-source$
+^vignettes/.*\.html$
+^LICENSE\.md$

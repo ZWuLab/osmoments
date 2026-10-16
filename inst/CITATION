@@ -1,0 +1,18 @@
+# The paper that describes the package, its verification and the comparison with other
+# software. citation("osmoments") prints this entry.
+
+citHeader("To cite osmoments in publications use:")
+
+bibentry(
+  bibtype = "Unpublished",
+  title   = "osmoments: Exact Means, Variances and Covariances of Order Statistics in R",
+  author  = c(person("Zheyang", "Wu"),
+              person("Tiejun", "Tong")),
+  year    = "2026",
+  note    = "Manuscript",
+  textVersion = paste(
+    "Wu, Z. and Tong, T. (2026).",
+    "osmoments: Exact Means, Variances and Covariances of Order Statistics in R.",
+    "Manuscript."
+  )
+)

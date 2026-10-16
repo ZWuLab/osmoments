@@ -1,0 +1,33 @@
+Package: osmoments
+Type: Package
+Title: Exact Moments of Order Statistics
+Version: 0.1.0
+Date: 2026-10-16
+Authors@R: c(
+    person("Zheyang", "Wu", email = "zheyangwu@wpi.edu", role = c("aut", "cre"))
+    )
+Description: Computes the exact means, variances and covariances of the order
+    statistics of a continuous distribution, at any ranks and any sample size, by
+    numerical evaluation of the defining integrals, with closed-form results where
+    the distribution has them. Five families are built in (normal, uniform,
+    exponential, logistic and Gumbel) and any other continuous distribution
+    enters through its distribution, density and quantile functions. It also
+    computes the moments of linear combinations of order statistics and of sample
+    quantiles (under the nine definitions of R's quantile() function), and Lloyd's
+    best linear unbiased estimators of location and scale from any subset of
+    ranks. The computation and its verification are described by Wu and Tong
+    (2026) in 'osmoments: Exact Means, Variances and Covariances of Order
+    Statistics in R' (manuscript).
+URL: https://zwulab.github.io/osmoments/, https://github.com/ZWuLab/osmoments
+BugReports: https://github.com/ZWuLab/osmoments/issues
+License: GPL (>= 3)
+Encoding: UTF-8
+Imports: stats
+Suggests: knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+RoxygenNote: 7.3.3
+Language: en-US
+Config/testthat/edition: 3
+Roxygen: list(markdown = FALSE)

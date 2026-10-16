@@ -1,0 +1,23 @@
+url: https://zwulab.github.io/osmoments/
+template:
+  bootstrap: 5
+reference:
+- title: Moments of order statistics
+  desc: The exact means, variances and covariances at any ranks and any sample size, for five built-in families or a user-supplied distribution.
+  contents:
+  - os_moments
+  - os_dist
+  - print.osmoments
+- title: Sample quantiles, linear combinations and the BLUE
+  desc: The linear layer over the moments.
+  contents:
+  - os_quantile_weights
+  - os_lin_moments
+  - os_blue
+- title: Package
+  contents:
+  - osmoments-package
+articles:
+- title: Get started
+  contents:
+  - osmoments
